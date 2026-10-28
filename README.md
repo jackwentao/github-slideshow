@@ -1,13 +1,16 @@
-# Your GitHub Learning Lab Repository for Introducing GitHub
+# GitHub Slideshow 学习记录
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
+早期 GitHub Learning Lab 入门课程的练习仓库，基于 Jekyll 与 reveal.js。保留课程模板和练习内容，作为学习历史查阅。
 
-Oh! I haven't introduced myself...
+## 内容
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+- [_posts/](_posts/)：幻灯片内容。
+- [_layouts/](_layouts/)：页面布局。
+- [_config.yml](_config.yml)：Jekyll 配置。
+- [script/](script/)：原课程辅助脚本。
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+仓库包含旧版依赖与已跟踪的 `node_modules/`。当前 README 以历史阅读为主；如需重新运行，请先核对 [Gemfile](Gemfile) 与锁定文件对应的旧工具链。
 
-I'll meet you over there, can't wait to get started!
+## 来源与许可
 
-This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+课程来自 GitHub Learning Lab，幻灯片使用 [reveal.js](https://github.com/hakimel/reveal.js/)。保留原项目来源说明与 [MIT 许可](LICENSE)。
